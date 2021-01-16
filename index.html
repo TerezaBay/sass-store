@@ -20,8 +20,8 @@
   </head>
   <body>
     <div class="container">
+      <!-- header -->
       <header class="header">
-
         <div class="logo">
           <img src="images/logo.png" class="logo-img" alt="logo" />
         </div>
@@ -58,20 +58,20 @@
             <li class="second-nav-item">
               <a href="#" class="second-nav-link">Shop</a>
             </li>
-            <li class="second-nav-item">
-              <a href="#" class="second-nav-link dropdown-ui">Gift Ideas</a>
+            <li class="second-nav-item dropdown-li">
+              <a href="#" class="second-nav-link">Gift Ideas</a>
+              <ul class="dropdown">
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Under $25</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">$25 - $50</a>
+                </li>
+                <li class="dropdown-item">
+                  <a href="#" class="dropdown-link">Above $50</a>
+                </li>
+              </ul>
             </li>
-            <ul class="dropdown">
-              <li class="dropdown-item">
-                <a href="#" class="dropdown link">Under $25</a>
-              </li>
-              <li class="dropdown-item">
-                <a href="#" class="dropdown link">$25 - $50</a>
-              </li>
-              <li class="dropdown-item">
-                <a href="#" class="dropdown link">Above $50</a>
-              </li>
-            </ul>
             <li class="second-nav-item">
               <a href="#" class="second-nav-link">About Us</a>
             </li>
@@ -83,8 +83,110 @@
             </li>
           </ul>
         </nav>
-
       </header>
+      <!-- end of header -->
+
+      <!-- slideshow -->
+      <section class="slideshow">
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+              similique.
+            </p>
+          </div>
+          <img src="images/img1.jpg" alt="slide 1" />
+        </div>
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+              similique.
+            </p>
+          </div>
+          <img src="images/img2.jpg" alt="slide 2" />
+        </div>
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+              similique.
+            </p>
+          </div>
+          <img src="images/img3.jpg" alt="slide 3" />
+        </div>
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 4</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+              similique.
+            </p>
+          </div>
+          <img src="images/img4.jpg" alt="slide 4" />
+        </div>
+        <div class="slideshow-slide">
+          <div class="slideshow-content">
+            <h2>Slide 5</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+              similique.
+            </p>
+          </div>
+          <img src="images/img5.jpg" alt="slide 5" />
+        </div>
+      </section>
+      <!-- end of slideshow -->
+
+      <!-- products -->
+      <section class="products">
+        <div class="products-heading">
+          <h1 class="products-heading-text">Featured</h1>
+        </div>
+
+        <div class="products-wrapper">
+          <div class="product">
+            <img
+              class="product-img"
+              src="images/product1.png"
+              alt="product 1"
+            />
+            <div class="product-description">
+              <h2 class="product-description-heading">Dress</h2>
+              <p class="product-description-price">Price: <span>$150</span></p>
+              <a href="#" class="product-description-btn">Buy Now</a>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product-img"
+              src="images/product2.png"
+              alt="product 2"
+            />
+            <div class="product-description">
+              <h2 class="product-description-heading">Pants</h2>
+              <p class="product-description-price">Price: <span>$100</span></p>
+              <a href="#" class="product-description-btn">Buy Now</a>
+            </div>
+          </div>
+          <div class="product">
+            <img
+              class="product-img"
+              src="images/product3.png"
+              alt="product 3"
+            />
+            <div class="product-description">
+              <h2 class="product-description-heading">Shirt</h2>
+              <p class="product-description-price">Price: <span>$50</span></p>
+              <a href="#" class="product-description-btn">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end of products -->
     </div>
   </body>
 </html>
