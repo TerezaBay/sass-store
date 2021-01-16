@@ -11,6 +11,14 @@ html {
   // this way 1 rem = 10 px
   // default is font size of html 16 px
   // 10 / 16 * 100
+
+  @include response(md) {
+    font-size: 56.25%;
+  }
+
+  @include response(sm) {
+    font-size: 50%;
+  }
 }
 
 .container {
